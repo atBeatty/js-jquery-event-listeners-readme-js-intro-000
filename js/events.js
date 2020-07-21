@@ -12,6 +12,12 @@ function frameIt() {
   })
 }
 
+function pressIt() {
+  $("input").on('keydown', function(key) {
+    if(key === 'G'\c)
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
