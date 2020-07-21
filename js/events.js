@@ -13,8 +13,10 @@ function frameIt() {
 }
 
 function pressIt() {
-  $("input").on('keydown', function(key) {
-  
+  $("form").on('keydown', function(key) {
+    if($("input:first") === 'G') {
+      alert ('You pressed a G')
+    }
   })
 }
 
