@@ -29,9 +29,11 @@ function submitIt() {
 $(document).ready(function(){
 
 // call functions here
-frameIt()
 getIt();
+frameIt();
 pressIt();
+submitIt();
+
 
 
 });
