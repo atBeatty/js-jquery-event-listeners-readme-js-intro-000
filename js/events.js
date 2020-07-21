@@ -15,21 +15,21 @@ function frameIt() {
 function pressIt() {
   $("form").on('keydown', function(key) {
     if($("input:first").val() === 'G') {
-      alert ('G was pressed')
+      return alert ('G was pressed')
     }
   })
 }
 
 function submitIt() {
   $("form").on('submit', function() {
-    return ('Your form is going to be submitted now.');
+    alert ('Your form is going to be submitted now.');
   })
 }
 
 $(document).ready(function(){
 
 // call functions here
-frameIt();
+frameIt()
 getIt();
 pressIt();
 
